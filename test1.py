@@ -58,6 +58,6 @@ class Woman(Human):
     def printBWH(self):
         print("bust = {}, waist = {}, hip = {}".format(self.bust, self.waist, self.hip))
 
-a = Woman(165, 55, 100, 64, 84)
+a = Woman(171, 60, 100, 64, 84)
 print(a.BMI())
 a.printBWH()
